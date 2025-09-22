@@ -337,3 +337,9 @@ const compareBMI = function (person) {
 };
 //console.log(calculateBMI(James));
 compareBMI(James);
+
+function pokemon(p, b, d) {
+  let paint = p;
+  let badges = b;
+  let pokedollars = d;
+}
