@@ -339,7 +339,5 @@ const compareBMI = function (person) {
 compareBMI(James);
 
 function pokemon(p, b, d) {
-  let paint = p;
-  let badges = b;
-  let pokedollars = d;
+  const badges = Math.floor(p / b);
 }
