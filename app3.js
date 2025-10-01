@@ -19,3 +19,14 @@ function lang(sentence) {
 }
 lang(sentence);
  */
+function occupied(y, t) {
+  let occupied = 0;
+  for (let i = 0; i < y.length; i++) {
+    console.log(y[i], t[i]);
+    if (y[i] === "c" && t[i] === "c") {
+      occupied++;
+    }
+  }
+  console.log(occupied);
+}
+occupied("cc..c", ".cc..");
