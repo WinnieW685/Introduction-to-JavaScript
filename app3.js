@@ -19,7 +19,7 @@ function lang(sentence) {
 }
 lang(sentence);
  */
-function occupied(y, t) {
+/* function occupied(y, t) {
   let occupied = 0;
   for (let i = 0; i < y.length; i++) {
     console.log(y[i], t[i]);
@@ -30,3 +30,16 @@ function occupied(y, t) {
   console.log(occupied);
 }
 occupied("cc..c", ".cc..");
+ */
+const london = {
+  firstName: "London",
+  lastName: "Valentine",
+  graduated: false,
+  DOB: 2010,
+  siblings: ["Paris", "Rio"],
+  age: function () {
+    return year - this.DOB;
+  },
+};
+
+london.siblings.includes("Paris");
