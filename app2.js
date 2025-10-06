@@ -73,14 +73,14 @@ console.log(students);
 /*// 0 is the first thing in the list aka in this situation "Jean"
 console.log(students[0])*/
 
-/*function printAll(list) {
+function printAll(list) {
   //iteraton
-  for (let i =0; i < list.length; i+++) {
+  for (let i = 0; i < list.length; i++) {
     //sequencing
-    console.log(i)
+    console.log(i);
     console.log(students[i]);
   }
-}*/
+}
 //printAll(students)
 /* students.forEach((student, index) => console.log(student, index + 1));
  */
